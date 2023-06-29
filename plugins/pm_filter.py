@@ -578,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('😊DONT'T TOUCH ME😊', url="https://Github.com")
+            InlineKeyboardButton('😊DO NOT TOUCH😊', url="https://Github.com")
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😊DON'T TOUCH ME😊', url="https://Github.com")
+            InlineKeyboardButton('😊DO NOT TOUCH😊', url="https://Github.com")
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
